@@ -1,0 +1,31 @@
+name: kinter
+version: '1.0'
+main: me.micegood.kinter.Kinter
+api-version: '1.19'
+authors: [ mice ]
+
+commands:
+  calculator:
+    description: Калбек рвет тапки на сктб
+    aliases:
+      - calc
+    usage: /calculate <num1> <+|-|*|/> <num2>
+
+
+  message:
+    description: сри в рот табку
+    aliases:
+      - m
+    usage: /message <hello|goodbye|what>
+
+  spawnEntity:
+    aliases:
+      - mob
+  giveItem:
+    aliases:
+      - it
+  giveGun:
+    aliases:
+      - gun
+  menu:
+    description: Открытие меню
